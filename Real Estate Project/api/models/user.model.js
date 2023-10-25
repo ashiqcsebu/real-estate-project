@@ -16,6 +16,10 @@ const userSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
+    avatar: {
+      type: String,
+      default: "https://www.orangespike.com/wp-content/uploads/2018/09/dummy-client.jpg"
+    },
   },
   { timestamps: true }
 );
